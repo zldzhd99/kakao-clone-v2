@@ -10,8 +10,10 @@
       integrity="sha384-REHJTs1r2ErKBuJB0fCK99gCYsVjwxHrSU0N7I1zl9vZbggVJXRMsv/sLlOAGb4M"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Chat | kakako-clone</title>
   </head>
+
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
@@ -21,7 +23,7 @@
         <i class="far fa-clock"></i>
         <i class="fas fa-volume-mute"></i>
         <i class="fas fa-wifi"></i>
-        <span class="battery">35%</span>
+        <span class="status-bar__battery">35%</span>
         <i class="fas fa-battery-quarter"></i>
       </div>
     </div>
@@ -45,41 +47,52 @@
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="chat__column">
-              <img src="images/img.jpg" class="chat__avatar g-avatar" />
-              <div class="chat__content">
-                <span class="chat__username">lynn</span>
-                <span class="preview">going home</span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img src="images/img.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Lynn
+                  </span>
+                  <span class="friend__bottom-text">
+                    Going home!
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                <div class="friend__now-listenning">
+                  <span class="chat__timestamp">
+                    March 8
+                  </span>
+                </div>
               </div>
             </div>
           </a>
-          <div class="chat__column">
-            <span class="chat__timestamp">yesterday</span>
-          </div>
         </li>
       </ul>
     </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav_list-item">
-          <a href="friends.html" class="nav__list-link"
-            ><i class="far fa-user"></i
-          ></a>
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"> </i>
+          </a>
         </li>
         <li class="nav_list-item">
-          <a href="index.html" class="nav__list-link"
-            ><i class="fas fa-comment"></i
-          ></a>
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
+            <i class="fas fa-comment"></i>
+          </a>
         </li>
         <li class="nav_list-item">
-          <a href="find.html" class="nav__list-link"
-            ><i class="fas fa-search"></i
-          ></a>
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
         </li>
         <li class="nav_list-item">
-          <a href="more.html" class="nav__list-link"
-            ><i class="fas fa-ellipsis-h"></i
-          ></a>
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
         </li>
       </ul>
     </nav>
