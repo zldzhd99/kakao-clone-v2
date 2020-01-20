@@ -26,3 +26,17 @@ a {
   color: inherit; /*색을 부모요소로 부터 가져온다는 뜻*/
   text-decoration: none;
 }
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+main {
+  animation: fadein 0.5s ease-in-out;
+}
