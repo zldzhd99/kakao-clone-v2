@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-  opacity: 0.6; //투명도
+  opacity: 0.6; /*투명도*/
 }
 
 .status-bar i {

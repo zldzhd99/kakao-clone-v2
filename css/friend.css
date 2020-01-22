@@ -27,7 +27,7 @@
 
 .friend__content .friend__name {
   display: block;
-  margin-bottom: 1px;
+  margin-bottom: 5px;
 }
 
 .friend__content .friend__status,
@@ -36,7 +36,7 @@
   opacity: 0.6;
 }
 .friend__content .friend__bottom-text {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .friend__content .friend__status,
@@ -44,7 +44,7 @@
   font-size: 12px;
 }
 
-.friend .friend__now-listenning {
+.friend .friend__now-listening {
   padding: 5px 10px;
   border-radius: 15px;
   border: 2px solid #52e084;
@@ -52,10 +52,11 @@
   /* opacity: 0.6; 여기쓰면 border도 옅어진다*/
 }
 
-.friend__now-listenning span {
+.friend__now-listening span {
   opacity: 0.6;
+  /*span만 따로 opacity해주는것*/
 }
-.friend__now-listenning i {
+.friend__now-listening i {
   font-size: 12px;
 }
 

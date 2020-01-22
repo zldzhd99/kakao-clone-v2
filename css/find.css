@@ -12,14 +12,16 @@
   align-items: center;
 }
 
-.find .header-btn__icon {
+.find .header-btn__title {
   display: block;
-  font-size: 12px;
 }
 
 .find .header-btn__title {
   margin-top: 15px;
   font-size: 14px;
+}
+.find .header-btn__icon {
+  font-size: 12px;
 }
 
 .find .find__recommended {
