@@ -1,6 +1,7 @@
 .nav {
   position: fixed;
-  width: 100%; /*positon :fixed; 주고싶으면 width를 꼭 줘야한다 */
+  width: 100%;
+  /*positon :fixed; 주고싶으면 width를 꼭 줘야한다 */
   background-color: #fcfcfc;
   padding: 20px 50px;
   left: 0px;
@@ -35,15 +36,16 @@
   border-radius: 50%;
 }
 
-@keyframes shownavbar {
+@keyframes showNavBar {
   form {
-    transform: translateY(50px);
+    transform: translateY(80px);
   }
   to {
     transform: none;
   }
 }
 .nav {
-  animation: shownavbar 0.5s ease-in-out forwards;
-  animation-delay: 1s;
+  transform: translateY(80px);
+  animation: showNavBar 0.5s ease-in-out forwards;
+  animation-delay: 0.5s;
 }
